@@ -1,0 +1,60 @@
+body{
+    background-color: lightyellow;
+}
+li { 
+    margin-bottom: 1%;
+    font-size: 25px;
+}
+.panel-body{
+    color: GREEN;
+}
+.navbar-brand{
+    font-size: 55px;
+    background-color: rgb(179, 255, 0);
+    font-family: Brush Script MT;
+}
+p {
+	font-size: 20px;
+    margin-left: 1%;
+    color: rgb(32, 32, 170);
+}
+
+#bodyinput {
+    width: 50%;
+}
+
+.panel-title{
+    font-size: 25px;
+    color: black;
+    font-style: italic
+}
+.jumbotron {
+	overflow: hidden;
+    background-size: 85%;
+    background-position: center;
+    background-image: url('../images/newspaper.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.panel-heading.row {
+	width: 100%;
+    margin-left: 0%;
+}
+.panel-primary {
+    height: 135px;
+}
+
+#savenote {
+    display: block;
+    background-color: lightgreen;
+}
+
+/* 
+  These rules take effect when the browser's width
+  is 640px or less.
+*/
+@media screen and (max-width: 640px) {
+	
+}
